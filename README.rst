@@ -3,7 +3,16 @@ CROC Cloud API Client
 
 Simple command-line utility for sending custom requests to CROC Cloud platform.
 
-This is the bash version of c2-ec2 client https://github.com/C2Devel/c2-client
+This is the bash version of c2-ec2 `client <https://github.com/C2Devel/c2-client>`_.
+
+Prerequisites
+-------------
+
+Download CROC cloud api credentials - `doc <http://docs.website.cloud.croc.ru/en/manual/account.html#api>`_.
+
+Populate ``c2rc.sh`` with appropriate values.
+
+Evaluate script: ``source <path_to_c2rc.sh>``.
 
 Usage
 -----
